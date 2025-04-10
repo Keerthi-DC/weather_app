@@ -1,0 +1,50 @@
+/* style.css */
+
+/* Custom font or fallback */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+    min-height: 100vh;
+  }
+  
+  /* Container styling */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Custom input field */
+  input#cityInput {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  /* Custom buttons hover effect */
+  button:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+  }
+  
+  /* Weather and forecast cards */
+  #weather, #forecast > div {
+    background-color: #ffffffcc;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Error styling */
+  #error {
+    font-weight: bold;
+    color: #e53935;
+  }
+  
+  /* Dropdown styling */
+  select#cityDropdown {
+    background-color: #f1f8e9;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
